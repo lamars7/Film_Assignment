@@ -1,0 +1,67 @@
+@font-face {
+  font-family: QuicksandFont;
+  src: url(fonts/Quicksand_Book.otf);
+  font-weight:bold;
+}
+
+
+#topbar {
+  width: auto;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+#search-bar {
+  height: 30px;
+  width: 250px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+  font-family: QuicksandFont;
+}
+
+
+#select-movie-type {
+  height: 30px;
+  width: 150px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 14px;
+  font-family: QuicksandFont;
+}
+
+
+#add-movie {
+  height: 30px;
+  width: 100px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #00bfff;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: QuicksandFont;
+}
+
+#text {
+  font-size: 20px;
+  margin: 0 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
